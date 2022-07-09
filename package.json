@@ -1,0 +1,30 @@
+{
+  "name": "lightcord",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@tauri-apps/api": "^1.0.2",
+    "@types/node": "^18.0.3",
+    "babel-plugin-macros": "^3.1.0",
+    "preact": "^10.5.15",
+    "preact-async-route": "^2.2.1",
+    "preact-router": "^4.0.1",
+    "twind": "^0.16.17"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.1.5",
+    "@tauri-apps/cli": "^1.0.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  }
+}
